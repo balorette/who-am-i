@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+import { compile } from '@mdx-js/mdx';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeShiki from '@shikijs/rehype';
 import readingTime from 'reading-time';
 import type { ContentItem, Frontmatter } from './types';
 
@@ -72,9 +72,52 @@ export function getContentBySlug<T extends Frontmatter>(
 }
 
 /**
- * Convert markdown to HTML
+ * Compile MDX content to React component
+ */
+export async function compileMDX(markdown: string) {
+  const { evaluate } = await import('@mdx-js/mdx');
+  const { default: React } = await import('react');
+  const { Fragment, jsx, jsxs } = await import('react/jsx-runtime');
+
+  const compiled = await evaluate(markdown, {
+    Fragment,
+    jsx,
+    jsxs,
+    development: false,
+    rehypePlugins: [
+      rehypeSlug,
+      [
+        rehypeAutolinkHeadings,
+        {
+          behavior: 'wrap',
+          properties: {
+            className: ['heading-anchor'],
+            ariaLabel: 'Link to section',
+          },
+        },
+      ],
+      [
+        rehypeShiki,
+        {
+          theme: 'dark-plus',
+          langs: ['typescript', 'javascript', 'tsx', 'jsx', 'json', 'bash', 'yaml', 'markdown'],
+        },
+      ],
+    ],
+  });
+
+  return compiled.default;
+}
+
+/**
+ * @deprecated Use compileMDX instead - this is kept for backwards compatibility during migration
+ * Convert markdown to HTML (legacy function)
  */
 export async function markdownToHtml(markdown: string): Promise<string> {
+  // Temporary compatibility shim - will be removed in Task 8
+  const { remark } = await import('remark');
+  const html = (await import('remark-html')).default;
+
   const result = await remark()
     .use(html, { sanitize: false })
     .process(markdown);

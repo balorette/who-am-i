@@ -89,7 +89,7 @@ export default async function ThoughtPage({ params }: ThoughtPageProps) {
         </header>
 
         <div
-          className="prose prose-invert prose-headings:text-text-primary prose-p:text-text-secondary prose-a:text-accent-primary prose-code:text-accent-primary prose-pre:bg-background-tertiary prose-pre:border prose-pre:border-border max-w-none"
+          className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </article>
