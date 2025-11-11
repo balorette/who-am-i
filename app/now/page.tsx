@@ -1,0 +1,75 @@
+import { Metadata } from 'next';
+import { generateMetadata as genMetadata } from '@/lib/seo';
+import Card from '@/components/ui/Card';
+
+export const metadata: Metadata = genMetadata({
+  title: 'Now',
+  description: "What I'm currently focused on, learning, and exploring.",
+  path: '/now',
+});
+
+export default function NowPage() {
+  const lastUpdated = new Date().toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+
+  return (
+    <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
+      <div className="mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">What I'm Doing Now</h1>
+        <p className="text-text-secondary">
+          Last updated: <time>{lastUpdated}</time>
+        </p>
+        <p className="text-sm text-text-secondary mt-2">
+          Inspired by{' '}
+          <a
+            href="https://nownownow.com/about"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent-primary hover:underline"
+          >
+            nownownow.com
+          </a>
+        </p>
+      </div>
+
+      <div className="space-y-8">
+        <Card>
+          <h2 className="text-2xl font-bold mb-4 text-accent-primary">🎯 Current Focus</h2>
+          <ul className="space-y-2 text-text-secondary">
+            <li>• Exploring agentic AI systems with Claude and custom agents</li>
+            <li>• Building personal site with Next.js and modern static site techniques</li>
+            <li>• Diving deeper into AWS cloud-native architectures</li>
+          </ul>
+        </Card>
+
+        <Card>
+          <h2 className="text-2xl font-bold mb-4 text-accent-secondary">📚 Learning</h2>
+          <ul className="space-y-2 text-text-secondary">
+            <li>• Advanced TypeScript patterns and type safety</li>
+            <li>• AI agent orchestration and workflow design</li>
+            <li>• Infrastructure as Code best practices</li>
+          </ul>
+        </Card>
+
+        <Card>
+          <h2 className="text-2xl font-bold mb-4 text-accent-success">🛠️ Building</h2>
+          <ul className="space-y-2 text-text-secondary">
+            <li>• Personal portfolio site (this site!)</li>
+            <li>• Experimental AI-powered automation tools</li>
+            <li>• Documentation and learning resources</li>
+          </ul>
+        </Card>
+      </div>
+
+      <div className="mt-12 p-6 bg-background-secondary border border-border rounded-lg">
+        <p className="text-sm text-text-secondary">
+          This is a "now page" — a snapshot of what I'm currently prioritizing. If you have your own
+          site, consider making one too!
+        </p>
+      </div>
+    </div>
+  );
+}
