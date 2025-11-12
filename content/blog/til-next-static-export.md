@@ -2,7 +2,7 @@
 title: "TIL: Next.js Static Export with App Router"
 date: "2025-01-12"
 tags: ["Next.js", "Static Sites", "Web Development"]
-category: "finding"
+category: "insight"
 published: true
 ---
 
@@ -70,10 +70,10 @@ Server Components run at build time, generating static HTML. Perfect for:
 
 ## Gotchas
 
-❌ Can't use `revalidate` or ISR
-❌ Can't use Middleware
-❌ Can't use `headers()` or `cookies()` at runtime
-❌ Dynamic content requires client-side fetching
+- Can't use `revalidate` or ISR
+- Can't use Middleware
+- Can't use `headers()` or `cookies()` at runtime
+- Dynamic content requires client-side fetching
 
 ## My Use Case
 

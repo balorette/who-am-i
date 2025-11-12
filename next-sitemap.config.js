@@ -23,7 +23,7 @@ module.exports = {
       };
     }
 
-    if (path === '/projects' || path === '/experiments' || path === '/about' || path === '/now') {
+    if (path === '/projects' || path === '/experiments' || path === '/blog' || path === '/about' || path === '/now') {
       return {
         loc: path,
         changefreq: 'weekly',
@@ -41,7 +41,7 @@ module.exports = {
       };
     }
 
-    if (path.startsWith('/findings/') || path.startsWith('/thoughts/')) {
+    if (path.startsWith('/blog/')) {
       return {
         loc: path,
         changefreq: 'monthly',

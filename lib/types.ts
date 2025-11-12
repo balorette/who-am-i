@@ -19,12 +19,8 @@ export interface ExperimentFrontmatter extends Frontmatter {
   status: 'in-progress' | 'completed' | 'paused';
 }
 
-export interface FindingFrontmatter extends Frontmatter {
-  category: 'finding';
-}
-
-export interface ThoughtFrontmatter extends Frontmatter {
-  category: 'thought';
+export interface BlogPostFrontmatter extends Frontmatter {
+  category: 'insight' | 'reflection';
   readingTime?: string;
 }
 
