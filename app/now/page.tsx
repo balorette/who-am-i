@@ -39,18 +39,18 @@ export default function NowPage() {
         <Card>
           <h2 className="text-2xl font-bold mb-4 text-accent-primary">🎯 Current Focus</h2>
           <ul className="space-y-2 text-text-secondary">
-            <li>• Exploring agentic AI systems with Claude and custom agents</li>
+            <li>• Exploring agentic AI systems with OpenAI, Anthropic, Custom Agents and more</li>
             <li>• Building personal site with Next.js and modern static site techniques</li>
-            <li>• Diving deeper into AWS cloud-native architectures</li>
+            <li>• All things Cloud, Cloud Native, and Development</li>
           </ul>
         </Card>
 
         <Card>
           <h2 className="text-2xl font-bold mb-4 text-accent-secondary">📚 Learning</h2>
           <ul className="space-y-2 text-text-secondary">
-            <li>• Advanced TypeScript patterns and type safety</li>
+            <li>• AI/ML in multiple Languages and frameworks</li>
             <li>• AI agent orchestration and workflow design</li>
-            <li>• Infrastructure as Code best practices</li>
+            <li>• Infrastructure as Code at Scale</li>
           </ul>
         </Card>
 
