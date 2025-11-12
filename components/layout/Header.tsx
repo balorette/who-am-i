@@ -26,7 +26,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="text-xl font-mono font-bold">
               <span className="text-accent-primary">$</span>{' '}
-              <span className="terminal-cursor">bryan</span>
+              <span className="terminal-cursor">aftermarketCode</span>
             </Link>
           </div>
 

@@ -14,7 +14,7 @@ export default function Footer() {
               Bryan Lorette
             </h3>
             <p className="text-sm text-text-secondary">
-              Infrastructure specialist evolving into cloud-native and AI technologies.
+              Cloud-native specialist evolving into emerging and AI technologies.
             </p>
           </div>
 

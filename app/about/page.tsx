@@ -12,17 +12,15 @@ export const metadata: Metadata = genMetadata({
 
 export default function AboutPage() {
   const certifications = [
-    { name: 'AWS Certified Cloud Practitioner', year: '2023' },
-    { name: 'Microsoft Azure Infrastructure Solutions', year: '2022' },
-    { name: 'ITILv3 Foundation', year: '2020' },
-    { name: 'Red Hat Systems Administration', year: '2019' },
-    { name: 'MCSE', year: '2018' },
+    { name: 'AWS AI/ML', year: 'Udemy' },
+    { name: 'Agentic Course', year: 'Udemy' },
+    { name: 'GoLang', year: 'Udemy' }
   ];
 
   const technologies = [
     'AWS', 'Azure', 'Next.js', 'TypeScript', 'React',
-    'Node.js', 'Python', 'Linux', 'Docker', 'Kubernetes',
-    'Terraform', 'CloudFormation', 'CI/CD', 'AI/ML'
+    'Node.js', 'Python', 'Go', 'Linux', 'Docker', 'Kubernetes', 'Crossplane',
+    'Terraform', 'CloudFormation', 'CI/CD', 'AI/ML', 'Security', 'SDLC',
   ];
 
   return (
@@ -41,17 +39,19 @@ export default function AboutPage() {
           <div className="space-y-4 text-text-secondary">
             <p>
               I started my career deep in traditional infrastructure — working with enterprise
-              systems, datacenters, Windows Server, Cisco networking, and Red Hat Linux. This
-              foundation gave me a solid understanding of how systems work at a fundamental level.
+              systems, datacenters, Bare Metal Servers, Cisco networking, and Red Hat Linux. This
+              foundation gave me a solid understanding of how systems work at a fundamental level. 
+              I started building my own applications and sank my teeth into development.
             </p>
             <p>
-              As cloud technologies emerged, I evolved my skillset into cloud-native architectures,
+              As cloud technologies emerged, I evolved my skillset into cloud-native apps and architectures,
               earning certifications in AWS and Azure. I've embraced infrastructure as code,
-              containerization, and modern DevOps practices.
+              containerization, and modern DevOps practices. I've built everything from full stack all in one applications
+              to complex microservices architectures deployed on Kubernetes.
             </p>
             <p>
               Today, I'm exploring the cutting edge of AI and agentic systems, applying my
-              infrastructure background to build and experiment with emerging technologies. I
+              background to build and experiment with emerging technologies. I
               believe the best way to learn is by building, documenting, and sharing.
             </p>
           </div>
@@ -72,7 +72,7 @@ export default function AboutPage() {
 
       {/* Certifications */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6">Certifications</h2>
+        <h2 className="text-2xl font-bold mb-6">Recommended Courses</h2>
         <div className="space-y-4">
           {certifications.map((cert) => (
             <Card key={cert.name} hover={false}>
