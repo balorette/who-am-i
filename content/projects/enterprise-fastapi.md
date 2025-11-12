@@ -12,7 +12,7 @@ published: true
 
 ## Overview
 
-As many say, doing is the best way to learn. I have been utilizing AI pair coders and agents for a while now and wanted to see what some of the effective methods are. To try this out I took a common pattern of building out a boiler plate for rapid development. In this case, FastAPI. The caveat though was I wanted to bake in as much Enterprise based requirements as possible. Things like Auth, Audit, Observability, etc. Normally something that would just grow over time with functionality built into a bolierplate.
+As many say, doing is the best way to learn. I have been utilizing AI pair coders and agents for a while now and wanted to see what some of the effective methods are. To try this out I took a common pattern of building out a boilerplate for rapid development. In this case, FastAPI. The caveat though was I wanted to bake in as much Enterprise based requirements as possible. Things like Auth, Audit, Observability, etc. Normally something that would just grow over time with functionality built into a boilerplate.
 
 
 ## Features

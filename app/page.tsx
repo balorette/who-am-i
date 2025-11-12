@@ -23,7 +23,7 @@ export default function Home() {
           <span className="text-gradient">Bryan Lorette</span>
         </h1>
         <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto mb-4">
-          Building what's next, and fixing what's now. Going beyond the source code and engineering clarity and value.
+          Building what&apos;s next, and fixing what&apos;s now. Going beyond the source code and engineering clarity and value.
         </p>
         <p className="text-lg text-text-accent font-mono mb-8">
           Currently exploring: <span className="text-accent-primary">Agentic AI Architectures</span>
