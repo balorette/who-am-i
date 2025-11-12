@@ -1,0 +1,8 @@
+# Default owner for everything in the repo
+* @balorette
+
+# Documentation requires review
+/docs/ @balorette
+
+# CI/CD changes require review
+/.github/ @balorette
