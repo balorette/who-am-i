@@ -12,7 +12,7 @@ published: true
 
 I'm diving into agentic AI systems — autonomous agents that can plan, execute, and adapt to achieve goals. Using Claude and custom orchestration, I'm building workflows that handle complex multi-step tasks.
 
-The transition from traditional infrastructure automation (Ansible, Terraform) to AI-powered automation is fascinating. Many of the same principles apply: idempotency, error handling, observability. But AI agents introduce new capabilities around natural language understanding and adaptive reasoning.
+Understanding effective ways to utilize agents, the architecture they require, and what are approiate use cases is really interesting. Many of the same principles from developing web applications apply: idempotency, error handling, observability. But AI agents introduce new capabilities around natural language understanding and adaptive reasoning. Is GenAI just a new UI, a productivity enabler, or something else? 
 
 ## Current Progress
 
