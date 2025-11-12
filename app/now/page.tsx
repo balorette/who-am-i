@@ -18,7 +18,7 @@ export default function NowPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       <div className="mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">What I'm Doing Now</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">What I&apos;m Doing Now</h1>
         <p className="text-text-secondary">
           Last updated: <time>{lastUpdated}</time>
         </p>
@@ -66,7 +66,7 @@ export default function NowPage() {
 
       <div className="mt-12 p-6 bg-background-secondary border border-border rounded-lg">
         <p className="text-sm text-text-secondary">
-          This is a "now page" — a snapshot of what I'm currently prioritizing. If you have your own
+          This is a &ldquo;now page&rdquo; — a snapshot of what I&apos;m currently prioritizing. If you have your own
           site, consider making one too!
         </p>
       </div>

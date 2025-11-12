@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { compile } from '@mdx-js/mdx';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeShiki from '@shikijs/rehype';
@@ -66,7 +65,7 @@ export function getContentBySlug<T extends Frontmatter>(
       frontmatter: data as T,
       content,
     };
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -76,7 +75,6 @@ export function getContentBySlug<T extends Frontmatter>(
  */
 export async function compileMDX(markdown: string) {
   const { evaluate } = await import('@mdx-js/mdx');
-  const { default: React } = await import('react');
   const { Fragment, jsx, jsxs } = await import('react/jsx-runtime');
 
   const compiled = await evaluate(markdown, {

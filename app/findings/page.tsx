@@ -20,7 +20,7 @@ export default function FindingsPage() {
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">💡 Findings</h1>
         <p className="text-xl text-text-secondary max-w-3xl">
-          Quick insights, things I've learned, and today-I-learned moments.
+          Quick insights, things I&apos;ve learned, and today-I-learned moments.
         </p>
       </div>
 
