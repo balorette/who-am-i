@@ -45,12 +45,12 @@ export default function AboutPage() {
             </p>
             <p>
               As cloud technologies emerged, I evolved my skillset into cloud-native apps and architectures,
-              earning certifications in AWS and Azure. I've embraced infrastructure as code,
-              containerization, and modern DevOps practices. I've built everything from full stack all in one applications
+              earning certifications in AWS and Azure. I&apos;ve embraced infrastructure as code,
+              containerization, and modern DevOps practices. I&apos;ve built everything from full stack all in one applications
               to complex microservices architectures deployed on Kubernetes.
             </p>
             <p>
-              Today, I'm exploring the cutting edge of AI and agentic systems, applying my
+              Today, I&apos;m exploring the cutting edge of AI and agentic systems, applying my
               background to build and experiment with emerging technologies. I
               believe the best way to learn is by building, documenting, and sharing.
             </p>
@@ -88,9 +88,9 @@ export default function AboutPage() {
       {/* Connect */}
       <section>
         <Card>
-          <h2 className="text-2xl font-bold mb-4">Let's Connect</h2>
+          <h2 className="text-2xl font-bold mb-4">Let&apos;s Connect</h2>
           <p className="text-text-secondary mb-6">
-            I'm always interested in connecting with fellow technologists, learning from others,
+            I&apos;m always interested in connecting with fellow technologists, learning from others,
             and sharing knowledge.
           </p>
           <div className="flex gap-4">

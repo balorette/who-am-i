@@ -133,7 +133,7 @@ export default function Home() {
                 💡 Findings
               </h3>
               <p className="text-text-secondary">
-                Quick insights and things I've learned
+                Quick insights and things I&apos;ve learned
               </p>
             </Card>
           </Link>
@@ -153,7 +153,7 @@ export default function Home() {
                 🎯 Now
               </h3>
               <p className="text-text-secondary">
-                What I'm currently focused on
+                What I&apos;m currently focused on
               </p>
             </Card>
           </Link>
