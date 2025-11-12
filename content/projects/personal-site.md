@@ -5,7 +5,7 @@ excerpt: "Modern static site built with Next.js, featuring dark theme and markdo
 coverImage: "/images/projects/personal-site.jpg"
 tags: ["Next.js", "TypeScript", "Tailwind CSS", "AWS"]
 githubUrl: "https://github.com/balorette/who-am-i"
-liveUrl: "https://yourdomain.com"
+liveUrl: "https://aftermarketcode.com"
 status: "in-progress"
 featured: true
 published: true

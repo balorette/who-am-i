@@ -23,10 +23,10 @@ export default function Home() {
           <span className="text-gradient">Bryan Lorette</span>
         </h1>
         <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto mb-4">
-          Infrastructure specialist evolving into cloud-native and AI technologies
+          Building what's next, and fixing what's now. Going beyond the source code and engineering clarity and value.
         </p>
         <p className="text-lg text-text-accent font-mono mb-8">
-          Currently exploring: <span className="text-accent-primary">Agentic AI Systems</span>
+          Currently exploring: <span className="text-accent-primary">Agentic AI Architectures</span>
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Link
@@ -37,7 +37,7 @@ export default function Home() {
           </Link>
           <Link
             href="/about"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-accent-primary text-accent-primary font-medium rounded-lg hover:bg-accent-primary/10 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-border text-text-primary font-medium rounded-lg hover:border-accent-primary hover:text-accent-primary transition-colors"
           >
             About Me
           </Link>
@@ -126,24 +126,14 @@ export default function Home() {
 
       {/* Quick Links */}
       <section className="py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Link href="/findings">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link href="/blog">
             <Card>
               <h3 className="text-xl font-semibold mb-2 text-accent-primary">
-                💡 Findings
+                📝 Blog
               </h3>
               <p className="text-text-secondary">
-                Quick insights and things I&apos;ve learned
-              </p>
-            </Card>
-          </Link>
-          <Link href="/thoughts">
-            <Card>
-              <h3 className="text-xl font-semibold mb-2 text-accent-secondary">
-                ✍️ Thoughts
-              </h3>
-              <p className="text-text-secondary">
-                Long-form reflections and deep dives
+                Insights, reflections, and learnings on technology and AI
               </p>
             </Card>
           </Link>

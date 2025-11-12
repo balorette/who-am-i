@@ -28,7 +28,7 @@ export default function AboutPage() {
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
         <p className="text-xl text-text-secondary">
-          Infrastructure specialist evolving into cloud-native and AI technologies
+          Engineer and Architect, all things cloud-native, platform, and AI.
         </p>
       </div>
 

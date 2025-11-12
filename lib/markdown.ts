@@ -13,7 +13,7 @@ const contentDirectory = path.join(process.cwd(), 'content');
  * Get all content items from a specific directory
  */
 export function getContentItems<T extends Frontmatter>(
-  type: 'projects' | 'experiments' | 'findings' | 'thoughts'
+  type: 'projects' | 'experiments' | 'findings' | 'thoughts' | 'blog'
 ): ContentItem<T>[] {
   const directory = path.join(contentDirectory, type);
 
@@ -51,7 +51,7 @@ export function getContentItems<T extends Frontmatter>(
  * Get a single content item by slug
  */
 export function getContentBySlug<T extends Frontmatter>(
-  type: 'projects' | 'experiments' | 'findings' | 'thoughts',
+  type: 'projects' | 'experiments' | 'findings' | 'thoughts' | 'blog',
   slug: string
 ): ContentItem<T> | null {
   try {
@@ -135,7 +135,7 @@ export function getReadingTime(content: string): string {
  * Get all slugs for a content type
  */
 export function getAllSlugs(
-  type: 'projects' | 'experiments' | 'findings' | 'thoughts'
+  type: 'projects' | 'experiments' | 'findings' | 'thoughts' | 'blog'
 ): string[] {
   const directory = path.join(contentDirectory, type);
 
@@ -153,11 +153,11 @@ export function getAllSlugs(
  * Get all unique tags from content items
  */
 export function getAllTags(
-  type?: 'projects' | 'experiments' | 'findings' | 'thoughts'
+  type?: 'projects' | 'experiments' | 'findings' | 'thoughts' | 'blog'
 ): string[] {
   const types = type
     ? [type]
-    : (['projects', 'experiments', 'findings', 'thoughts'] as const);
+    : (['projects', 'experiments', 'findings', 'thoughts', 'blog'] as const);
 
   const allTags = new Set<string>();
 

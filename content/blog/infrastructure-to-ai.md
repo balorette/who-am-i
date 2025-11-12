@@ -3,7 +3,7 @@ title: "From Infrastructure to AI: Lessons from Two Decades"
 date: "2025-01-08"
 excerpt: "Reflecting on how foundational infrastructure knowledge informs my approach to emerging AI technologies."
 tags: ["Career", "Infrastructure", "AI", "Learning"]
-category: "thought"
+category: "reflection"
 readingTime: "5 min"
 published: true
 ---
