@@ -130,7 +130,7 @@ export default function Home() {
           <Link href="/blog">
             <Card>
               <h3 className="text-xl font-semibold mb-2 text-accent-primary">
-                📝 Blog
+                Blog
               </h3>
               <p className="text-text-secondary">
                 Insights, reflections, and learnings on technology and AI
@@ -140,7 +140,7 @@ export default function Home() {
           <Link href="/now">
             <Card>
               <h3 className="text-xl font-semibold mb-2 text-accent-warning">
-                🎯 Now
+                Now
               </h3>
               <p className="text-text-secondary">
                 What I&apos;m currently focused on

@@ -37,7 +37,7 @@ export default function NowPage() {
 
       <div className="space-y-8">
         <Card>
-          <h2 className="text-2xl font-bold mb-4 text-accent-primary">🎯 Current Focus</h2>
+          <h2 className="text-2xl font-bold mb-4 text-accent-primary"><i className="fa-duotone fa-solid fa-trophy"></i> Current Focus</h2>
           <ul className="space-y-2 text-text-secondary">
             <li>• Exploring agentic AI systems with OpenAI, Anthropic, Custom Agents and more</li>
             <li>• Building personal site with Next.js and modern static site techniques</li>
@@ -46,7 +46,7 @@ export default function NowPage() {
         </Card>
 
         <Card>
-          <h2 className="text-2xl font-bold mb-4 text-accent-secondary">📚 Learning</h2>
+          <h2 className="text-2xl font-bold mb-4 text-accent-secondary">Learning</h2>
           <ul className="space-y-2 text-text-secondary">
             <li>• AI/ML in multiple Languages and frameworks</li>
             <li>• AI agent orchestration and workflow design</li>
@@ -55,7 +55,7 @@ export default function NowPage() {
         </Card>
 
         <Card>
-          <h2 className="text-2xl font-bold mb-4 text-accent-success">🛠️ Building</h2>
+          <h2 className="text-2xl font-bold mb-4 text-accent-success">Building</h2>
           <ul className="space-y-2 text-text-secondary">
             <li>• Personal portfolio site (this site!)</li>
             <li>• Experimental AI-powered automation tools</li>
