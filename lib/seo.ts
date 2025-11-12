@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 const siteConfig = {
   name: 'Aftermarket Code',
   title: 'Aftermarket Code - Infrastructure and Code to AI',
-  description: 'Aftermarket Code showcasing projects, experiments, and insights from infrastructure, development, code, to cloud-native and AI technologies.',
+  description: 'Aftermarket Code showcasing projects, experiments, and insights from infrastructure and development to cloud-native and AI technologies.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://aftermarketcode.com',
   ogImage: '/images/og-image.jpg',
   links: {
