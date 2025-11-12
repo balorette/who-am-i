@@ -44,7 +44,22 @@ Simply add a new `.md` file with proper frontmatter to create new content!
 
 ## 🌐 Deployment
 
-Upload the `out/` directory to AWS S3, configure CloudFront, and you're live!
+This site is automatically deployed to AWS S3/CloudFront using GitHub Actions.
+
+**Deployment Process:**
+- Create a PR to `main` → Build validation runs
+- Merge PR → Automatic deployment to production
+
+**Documentation:**
+- [CI/CD Pipeline Overview](./docs/deployment/CICD_PIPELINE.md)
+- [AWS Setup Guide](./docs/deployment/AWS_SETUP.md)
+- [GitHub Setup Guide](./docs/deployment/GITHUB_SETUP.md)
+
+**Security:**
+- OIDC authentication (no stored credentials)
+- Private S3 bucket with CloudFront OAC
+- Branch protection on main
+- Least-privilege IAM role
 
 ## 🎨 Features
 
