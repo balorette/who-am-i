@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://aftermarketcode.com',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/api/*'],

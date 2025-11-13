@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 
 const siteConfig = {
-  name: 'Bryan Lorette',
-  title: 'Bryan Lorette - Infrastructure to AI',
-  description: 'Personal site showcasing projects, experiments, and insights from infrastructure to cloud-native and AI technologies.',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com',
+  name: 'Aftermarket Code',
+  title: 'Aftermarket Code - Infrastructure and Code to AI',
+  description: 'Aftermarket Code showcasing projects, experiments, and insights from infrastructure and development to cloud-native and AI technologies.',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://aftermarketcode.com',
   ogImage: '/images/og-image.jpg',
   links: {
     github: 'https://github.com/balorette',

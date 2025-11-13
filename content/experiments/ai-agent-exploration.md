@@ -23,7 +23,7 @@ Understanding effective ways to utilize agents, the architecture they require, a
 
 ## Approach
 
-I'm taking an infrastructure mindset to AI agents:
+I'm taking an open minded approach to AI agents but not throwing out the baby with the bathwater:
 
 **Treat agents like services:**
 - Clear interfaces and contracts
@@ -37,7 +37,7 @@ I'm taking an infrastructure mindset to AI agents:
 - Implement circuit breakers
 - Track resource usage
 
-## Key Learnings
+## Some Learnings
 
 ### 1. Prompt Engineering is Critical
 
@@ -96,20 +96,6 @@ Traditional unit tests don't work well for AI. Instead, I'm using:
 2. **API Integration** - Connect to GitHub, AWS, other services
 3. **Monitoring Dashboard** - Real-time agent activity tracking
 4. **Prompt Library** - Reusable prompt templates
-
-## Connections to Infrastructure
-
-This work builds on my infrastructure background:
-
-| Infrastructure | AI Agents |
-|----------------|-----------|
-| Ansible playbooks | Agent workflows |
-| Idempotent operations | Deterministic prompts |
-| Error handlers | Retry logic |
-| Monitoring | Token tracking |
-| IaC versioning | Prompt versioning |
-
-The skills transfer surprisingly well. Understanding distributed systems, failure modes, and automation patterns gives me a strong foundation for building reliable AI agents.
 
 ## Resources
 
