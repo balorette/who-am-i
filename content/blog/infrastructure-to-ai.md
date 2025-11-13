@@ -1,8 +1,8 @@
 ---
 title: "From Infrastructure to AI: Lessons from Two Decades"
 date: "2025-01-08"
-excerpt: "Reflecting on how foundational infrastructure knowledge informs my approach to emerging AI technologies."
-tags: ["Career", "Infrastructure", "AI", "Learning"]
+excerpt: "Reflecting on how foundational knowledge informs my approach to emerging AI technologies."
+tags: ["Career", "AI", "Learning"]
 category: "reflection"
 readingTime: "5 min"
 published: true
@@ -10,7 +10,7 @@ published: true
 
 ## The Foundation Matters
 
-Twenty years ago, I was configuring Cisco routers and managing Windows Server deployments. Today, I'm experimenting with AI agents and cloud-native architectures. The journey from traditional infrastructure to cutting-edge AI might seem like a leap, but the fundamentals remain surprisingly relevant.
+Twenty years ago, I was configuring Cisco routers and managing Server deployments. Today, I'm experimenting with AI agents and cloud-native architectures. The journey from traditional infrastructure to cutting-edge AI might seem like a leap, but the fundamentals remain surprisingly relevant.
 
 When you've spent years troubleshooting why packets aren't routing, why services won't start, or why backups fail at 3 AM, you develop a certain mindset. You learn to think in systems, anticipate failure modes, and design for resilience. These skills don't become obsolete—they evolve.
 
@@ -48,7 +48,7 @@ The infrastructure mindset prepares you for this. You build retry logic, circuit
 ### Version Control Everything
 
 In infrastructure, we learned to version control configuration:
-- Ansible playbooks in Git
+- Playbooks in Git
 - Terraform modules tagged and released
 - Infrastructure as Code with semantic versioning
 
@@ -69,12 +69,13 @@ When I work with AI agents, I'm not just prompting a black box. I'm thinking abo
 - **Throughput** - How many requests per second can I handle?
 - **Cost** - What's my token budget? Am I over-provisioned?
 - **Reliability** - What's my SLA? How do I ensure uptime?
+- **Fit** - Is this something that should be an agent
 
-These are infrastructure questions applied to AI.
+Never look for a problem to fit a solution, Agentic AI is expensive in many ways, so just trying to jam it in places doesn't work either.
 
 ## The Unexpected Advantages
 
-My infrastructure background gives me unexpected advantages in AI:
+While the tech is new, our backgrounds give us unexpected advantages in AI:
 
 **1. Debugging Mindset**
 When an agent misbehaves, I approach it like a production incident:
@@ -110,15 +111,15 @@ The tools change, but the principles endure.
 
 Never stop learning. The foundation you build today supports tomorrow's innovations.
 
-My infrastructure knowledge didn't become obsolete when cloud emerged—it gave me context for understanding cloud abstractions. My cloud experience isn't wasted now that AI dominates conversations—it informs how I think about AI systems architecture.
+Knowledge doesn't become obsolete. When new tech or tends emerg, it gives context for understanding. None of my experience is wasted now that AI dominates conversations, it informs how I think about AI systems architecture. It can even show me where my thinking doesn't work.
 
 Each layer builds on the last. Each skill compounds.
 
 ---
 
-## Advice for Infrastructure Folks
+## Advice for Folks
 
-If you're coming from infrastructure and feeling overwhelmed by AI:
+If you're coming from varied tech backgrunds and feeling overwhelmed by AI:
 
 1. **You already know more than you think.** Systems thinking, error handling, monitoring—these are universal.
 
@@ -130,8 +131,3 @@ If you're coming from infrastructure and feeling overwhelmed by AI:
 
 5. **Connect the dots.** Look for parallels between what you know and what's new. The patterns repeat.
 
-The future isn't about choosing between infrastructure or AI. It's about applying infrastructure discipline to AI systems. And that's where we have an advantage.
-
----
-
-*This is part of an ongoing series exploring the intersection of traditional infrastructure and modern AI. Next up: "Treating AI Agents Like Microservices"*
