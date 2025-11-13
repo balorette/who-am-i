@@ -32,7 +32,7 @@ This personal portfolio site showcases my projects, experiments, and thoughts on
 
 ## Design Philosophy
 
-The site embraces a **minimal dark aesthetic** inspired by VSCode and terminal interfaces. Subtle animations and hover effects add life without being distracting. The terminal cursor effect on the logo (`$ bryan`) is a nod to my infrastructure roots.
+The site embraces a **minimal dark aesthetic** inspired by VSCode and terminal interfaces. Subtle animations and hover effects add life without being distracting. The terminal cursor effect on the logo (`$ aftermarketCode`) is a nod to my roots.
 
 ## Content Structure
 
