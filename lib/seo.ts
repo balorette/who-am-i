@@ -5,7 +5,7 @@ const siteConfig = {
   title: 'Aftermarket Code - Infrastructure and Code to AI',
   description: 'Aftermarket Code showcasing projects, experiments, and insights from infrastructure and development to cloud-native and AI technologies.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://aftermarketcode.com',
-  ogImage: '/images/og-image.jpg',
+  ogImage: '/images/og-image-1200x630.png',
   links: {
     github: 'https://github.com/balorette',
     linkedin: 'https://www.linkedin.com/in/blorette/',
