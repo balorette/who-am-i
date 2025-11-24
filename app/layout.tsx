@@ -17,7 +17,10 @@ const jetbrainsMono = JetBrains_Mono({
   variable: '--font-jetbrains-mono',
 });
 
-export const metadata: Metadata = genMetadata({});
+export const metadata: Metadata = {
+  ...genMetadata({}),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://aftermarketcode.com'),
+};
 
 export default function RootLayout({
   children,

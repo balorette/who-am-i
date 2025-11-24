@@ -2,7 +2,7 @@
 title: "Personal Portfolio Site"
 date: "2025-01-15"
 excerpt: "Modern static site built with Next.js, featuring dark theme and markdown-based content management."
-coverImage: "/images/projects/personal-site.jpg"
+coverImage: "/images/personal-site.png"
 tags: ["Next.js", "TypeScript", "Tailwind CSS", "AWS"]
 githubUrl: "https://github.com/balorette/who-am-i"
 liveUrl: "https://aftermarketcode.com"
