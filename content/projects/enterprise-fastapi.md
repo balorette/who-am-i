@@ -2,7 +2,7 @@
 title: "FastAPI Boilerplate"
 date: "2025-10-15"
 excerpt: "Beyond the typical Boilerplate, enterprise requirements built in. A grab and go FastAPI based backend"
-coverImage: "/images/fast-api.png"
+coverImage: "/images/projects/fast-api.png"
 tags: ["FastAPI", "Python", "Rest", "Pydantic"]
 githubUrl: "https://github.com/balorette/python-fastapi-boilerplate"
 status: "in-progress"
