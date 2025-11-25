@@ -6,7 +6,7 @@ export function Link({ href, children }: { href?: string; children: React.ReactN
       href={href}
       target={isExternal ? '_blank' : undefined}
       rel={isExternal ? 'noopener noreferrer' : undefined}
-      className="text-accent-primary hover:text-accent-secondary underline transition-colors"
+      className="font-mono text-accent-primary hover:text-accent-secondary no-underline hover:underline transition-colors duration-200"
     >
       {children}
     </a>
