@@ -16,7 +16,7 @@ export default function Home() {
     .slice(0, 2);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 space-y-16">
       {/* Hero Section */}
       <section className="py-20 text-center animate-fade-in">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
@@ -64,7 +64,7 @@ export default function Home() {
               View all <FaArrowRight className="text-sm" />
             </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <Link key={project.slug} href={`/projects/${project.slug}`}>
                 <Card>
@@ -99,7 +99,7 @@ export default function Home() {
               View all <FaArrowRight className="text-sm" />
             </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {experiments.map((experiment) => (
               <Link key={experiment.slug} href={`/experiments/${experiment.slug}`}>
                 <Card>
@@ -126,7 +126,7 @@ export default function Home() {
 
       {/* Quick Links */}
       <section className="py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Link href="/blog">
             <Card>
               <h3 className="text-xl font-semibold mb-2 text-accent-primary">
