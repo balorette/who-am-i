@@ -15,11 +15,17 @@
 | Phase | Status | Tasks | Notes |
 |-------|--------|-------|-------|
 | Phase 1: Typography & Readability | ✅ Complete | 9/9 | Monospace links, heading hierarchy, optimal widths, generous spacing |
-| Phase 2: Card Interactive Polish | ⏳ Pending | 0/4 | Card hover effects with lift, glow, border |
+| Phase 2: Card Interactive Polish | ✅ Complete | 4/4 | Card hover effects with lift, glow, border |
 | Phase 3: CTA Refinement | ⏳ Pending | 0/5 | Button component, link animations, icon hovers |
 | Final Verification | ⏳ Pending | 0/4 | Cross-browser, accessibility, performance |
 
 **Last Updated:** 2025-11-25
+
+### Phase 2 Commits
+```
+d17a9f1 feat(ui): add terminal-style hover effects to Card component
+e55149b feat(ui): add optional animated border overlay to Card
+```
 
 ### Phase 1 Commits
 ```
