@@ -1,5 +1,5 @@
 ---
-title: "The Agentic Contextualizer"
+title: "Agentic Contextualizer"
 date: "2025-11-22"
 excerpt: "Bulding Better Context for AI Agents. Why we need to generate optimized context for AI agents, and the balance between cost, efficiency, and 'smart' analysis."
 coverImage: "/images/projects/agentic-contextualizer.png"
