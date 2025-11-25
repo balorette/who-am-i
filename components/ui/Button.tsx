@@ -17,7 +17,7 @@ export default function Button({
   external = false,
 }: ButtonProps) {
   const baseStyles =
-    'inline-flex items-center gap-2 px-4 py-2 font-mono text-sm rounded transition-all duration-150';
+    'inline-flex items-center gap-2 px-4 py-2 font-mono text-sm rounded transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-accent-primary focus:ring-offset-2 focus:ring-offset-background-primary';
 
   const variants = {
     primary:
