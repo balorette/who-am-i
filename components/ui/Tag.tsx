@@ -11,7 +11,7 @@ export default function Tag({ children, variant = 'default' }: TagProps) {
 
   return (
     <span
-      className={`inline-block px-3 py-1 text-xs font-mono border rounded-full ${styles[variant]}`}
+      className={`inline-block px-3 py-1 text-xs font-mono uppercase tracking-wider border rounded-full ${styles[variant]}`}
     >
       {children}
     </span>

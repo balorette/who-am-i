@@ -8,6 +8,7 @@ import { generateMetadata as genMetadata, generateBlogPostingJsonLd } from '@/li
 import JsonLd from '@/components/seo/JsonLd';
 import Tag from '@/components/ui/Tag';
 import StatusBadge from '@/components/ui/StatusBadge';
+import Button from '@/components/ui/Button';
 
 interface ProjectPageProps {
   params: Promise<{ slug: string }>;
@@ -96,31 +97,21 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {/* Links */}
           <div className="flex gap-4 mt-6">
             {project.frontmatter.githubUrl && (
-              <a
-                href={project.frontmatter.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-background-secondary border border-border rounded-lg hover:border-accent-primary hover:text-accent-primary transition-colors"
-              >
+              <Button href={project.frontmatter.githubUrl} external variant="primary">
                 <FaGithub /> View on GitHub
-              </a>
+              </Button>
             )}
             {project.frontmatter.liveUrl && (
-              <a
-                href={project.frontmatter.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-accent-primary text-background-primary rounded-lg hover:bg-accent-primary/90 transition-colors"
-              >
+              <Button href={project.frontmatter.liveUrl} external variant="primary">
                 <FaExternalLinkAlt /> Live Demo
-              </a>
+              </Button>
             )}
           </div>
         </header>
 
         {/* Content */}
         <div
-          className="prose prose-lg max-w-none"
+          className="prose prose-lg max-w-3xl"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </article>

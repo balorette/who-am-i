@@ -64,6 +64,19 @@
   }
 }
 
+@keyframes pulse-border {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-pulse-border {
+  animation: pulse-border 2s ease-in-out infinite;
+}
+
 body {
   background: var(--background-primary);
   color: var(--text-primary);
@@ -179,6 +192,7 @@ html {
 
 .prose a {
   color: var(--accent-primary);
+  font-family: var(--font-mono);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
@@ -187,6 +201,7 @@ html {
 .prose a:hover {
   color: var(--accent-secondary);
   border-bottom-color: var(--accent-secondary);
+  text-decoration: underline;
 }
 
 .prose strong {

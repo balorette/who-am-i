@@ -1,7 +1,7 @@
 ---
-title: "Building the Agentic Contextualizer: Better Context for AI Agents"
+title: "Agentic Contextualizer"
 date: "2025-11-22"
-excerpt: "Why I'm building a tool to generate optimized context for AI agents, and the balance between cost, efficiency, and 'smart' analysis."
+excerpt: "Bulding Better Context for AI Agents. Why we need to generate optimized context for AI agents, and the balance between cost, efficiency, and 'smart' analysis."
 coverImage: "/images/projects/agentic-contextualizer.png"
 tags: ["ai", "agents", "context-engineering", "python"]
 githubUrl: "https://github.com/balorette/agentic-contextualizer"
@@ -10,7 +10,7 @@ featured: true
 published: true
 ---
 
-## Building the Agentic Contextualizer: Better Context for AI Agents
+## The Quest for Context
 
 AI came onto the scene at speed, presenting plenty of opportunities. Often, though, many find themselves in the trap of looking for a problem to fit the solution.
 
