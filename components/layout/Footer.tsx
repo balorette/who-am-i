@@ -69,7 +69,7 @@ export default function Footer() {
                 href="https://github.com/balorette"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text-secondary hover:text-accent-primary transition-colors"
+                className="text-text-secondary hover:text-accent-primary hover:scale-110 transition-all duration-150"
                 aria-label="GitHub"
               >
                 <FaGithub className="h-6 w-6" />
@@ -78,7 +78,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/blorette/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text-secondary hover:text-accent-primary transition-colors"
+                className="text-text-secondary hover:text-accent-primary hover:scale-110 transition-all duration-150"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="h-6 w-6" />
