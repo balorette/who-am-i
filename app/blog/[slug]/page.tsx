@@ -90,7 +90,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </header>
 
         <div
-          className="prose prose-lg max-w-none"
+          className="prose prose-lg max-w-2xl"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </article>
