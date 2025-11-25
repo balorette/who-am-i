@@ -179,6 +179,7 @@ html {
 
 .prose a {
   color: var(--accent-primary);
+  font-family: var(--font-mono);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
@@ -187,6 +188,7 @@ html {
 .prose a:hover {
   color: var(--accent-secondary);
   border-bottom-color: var(--accent-secondary);
+  text-decoration: underline;
 }
 
 .prose strong {
