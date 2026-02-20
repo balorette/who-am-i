@@ -14,7 +14,7 @@ Twenty years ago, I was configuring Cisco routers and managing Servers. That was
 
 The core of my journey is found in the desire for knowledge and understaning, an intense curiousity and vivid imagination. I was lucky to have a family and mentors encouraged this though my life and career. Among the various antidotes and quotes from people that are way smarter than I am, there is a common message: fundamentals remain relevant. Thats what I try to build from. 
 
-So how does this grown into this age of AI?
+So how does this grow into this age of AI?
 
 ## Forge Ahead
 
