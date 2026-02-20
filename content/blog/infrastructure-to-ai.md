@@ -92,7 +92,7 @@ Each layer builds on the last. Each skill compounds.
 
 If you're coming from varied tech backgrounds and feeling overwhelmed by AI:
 
-1. **You already know more than you think.** Find the parrells, so many things are universal.
+1. **You already know more than you think.** Find the parallels, so many things are universal.
 
 2. **Start small.** Pick one AI experiment. Do it, understand it.
 
