@@ -55,7 +55,7 @@ I tried to pick a career where I didn't need to worry about continuing education
 
 What keeps me engaged after two decades is the constant evolution. Every release, every new technology, every experiment builds on what came before. Those who embrace learning have a massive advantage! 
 
-When I work with AI and AI agents, I'm not just prompting a black box. I'm thinking about how this all works together, what does responsibility and safty look like. How much is this going to cost. Is AI right here?
+When I work with AI and AI agents, I'm not just prompting a black box. I'm thinking about how this all works together, what does responsibility and safety look like. How much is this going to cost. Is AI right here?
 
 Never look for a problem to fit a solution, Agentic AI is expensive in many ways, so just trying to jam it in places doesn't work either.
 
