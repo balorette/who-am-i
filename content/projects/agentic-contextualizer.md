@@ -14,17 +14,19 @@ published: true
 
 AI came onto the scene at speed, presenting plenty of opportunities. Often, though, many find themselves in the trap of looking for a problem to fit the solution.
 
-Traditional software is already an efficient way to solve complex problems. AI—specifically Agentic AI—has the potential to improve that efficiency, but it has just as much ability to destroy it. The best illustration of this is the classic **Sort** algorithm: it is easier, cheaper, and faster to call `list.sort()` than it is to ask an LLM to sort a list.
+Traditional software is already an efficient way to solve complex problems. AI, specifically Agentic AI, has the potential to improve that efficiency, but it has just as much ability to destroy it. The best illustration of this is the classic **Sort** algorithm: it is easier, cheaper, and faster to call `list.sort()` than it is to ask an LLM to sort a list.
 
-This balance between traditional efficiency and AI capability is the foundation of the **Agentic Contextualizer**. Once a problem is encountered and the AI Agentic framework is found to be a viable solution, considerations like cost and context become critical.
+This balance between traditional efficiency and AI capability is the foundation of the **Agentic Contextualizer**. Taking a couple of known patterns and flows, with the Context Engineering Article from Antropic; I am exploring the trade offs between leveraging code to do "things" and LLM calls to do things. Plus this helps me understand so much more of the landscape. 
 
-## The Problem: Context is King
+As we build, Once a problem is encountered and the AI Agentic framework is found to be a viable solution, considerations like cost and context become critical.
 
-I need my Agents to have the *right* context, not just *more* context.
+## Context is King
+
+The start of this project really centered on: Needing my Agents to have the *right* context, not just *more* context.
 
 GitHub serves a purpose for me far beyond just housing code. I use repos to house thoughts, projects, and general organization. GenAI supercharges this workflow by helping me formalize plans, but standard tools struggle to bridge the gap between a raw file tree and the semantic understanding an agent needs.
 
-Solutions like **Context7** (and similar tools using the Model Context Protocol, or MCP) do this well for coding agents, but what about when the need is more specific? I don't want to fine-tune a model. With things like Claude Projects or ChatGPT, you can provide context files, but I wanted a dedicated context builder.
+Solutions like **Context7** (and similar tools using the Model Context Protocol, or MCP) do this well for coding agents, but what about when the need is more specific? I don't want to fine-tune a model. With things like Claude Projects or ChatGPT, you can provide context files, but I wanted a dedicated context builder and I wanted to try building it.
 
 Step one was building a **Contextualizer**. At face value, I thought this project would be simple. As I architected it, I found more lying in wait:
 
