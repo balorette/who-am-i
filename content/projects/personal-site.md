@@ -15,7 +15,7 @@ published: true
 
 This personal portfolio site showcases my projects, experiments, and thoughts on technology. Built with Next.js 14+ and deployed as a static site to AWS S3/CloudFront.
 
-I also do my best to make sure I am writting the copy, and then having AI review with out it ripping out my entire voice. 
+I also do my best to make sure I am writing the copy, and then having AI review without it ripping out my entire voice. 
 
 ## Features
 
