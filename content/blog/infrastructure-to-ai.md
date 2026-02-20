@@ -12,7 +12,7 @@ published: true
 
 Twenty years ago, I was configuring Cisco routers and managing Servers. That was my start. Today, I architect and build Cloud Native and Distributed applications at Enterprise Scale. And now I get to add AI into the mix. My path, though unconventional at times, makes sense though. 
 
-The core of my journey is found in the desire for knowledge and understaning, an intense curiousity and vivid imagination. I was lucky to have a family and mentors encouraged this though my life and career. Among the various antidotes and quotes from people that are way smarter than I am, there is a common message: fundamentals remain relevant. Thats what I try to build from. 
+The core of my journey is found in the desire for knowledge and understanding, an intense curiosity and vivid imagination. I was lucky to have a family and mentors encouraged this though my life and career. Among the various antidotes and quotes from people that are way smarter than I am, there is a common message: fundamentals remain relevant. Thats what I try to build from. 
 
 So how does this grow into this age of AI?
 
