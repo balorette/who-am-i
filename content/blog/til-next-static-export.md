@@ -8,7 +8,7 @@ published: true
 
 I don't hide the fact that I am not a frontend person and for me this has been a big win area for me when it comes to agentic coding. I have been using Claude to teach me (and yes, just build for me) a lot of frontend capabilities. I had a project in the past that looked Next.js for some backend work and it was my first stint back into the TypeScript. While I liked the familar feel and structure, I ended up going a different route. Here though, for a quick static page... It works really well. Next.js 14+ App Router supports static export with `output: 'export'` in next.config.js. This generates a fully static site that can be hosted on any static file server (S3, Netlify, Vercel, GitHub Pages, etc.).
 
-Below is a quick call out to finding from my usecase: This personal site. Content lives in markdown files, builds to static HTML, deployed to AWS S3 with CloudFront. Total hosting cost: ~$1/month for millions of page views.
+Below is a quick call out to finding from my use case: This personal site. Content lives in markdown files, builds to static HTML, deployed to AWS S3 with CloudFront. Total hosting cost: ~$1/month for millions of page views.
 
 ## Key Configuration
 
