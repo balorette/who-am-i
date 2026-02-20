@@ -90,7 +90,7 @@ Each layer builds on the last. Each skill compounds.
 
 ### Advice for Folks
 
-If you're coming from varied tech backgrunds and feeling overwhelmed by AI:
+If you're coming from varied tech backgrounds and feeling overwhelmed by AI:
 
 1. **You already know more than you think.** Find the parrells, so many things are universal.
 
