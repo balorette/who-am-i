@@ -6,7 +6,7 @@ coverImage: "/images/projects/fast-api.png"
 tags: ["FastAPI", "Python", "Rest", "Pydantic"]
 githubUrl: "https://github.com/balorette/python-fastapi-boilerplate"
 status: "in-progress"
-featured: true
+featured: false
 published: true
 ---
 
