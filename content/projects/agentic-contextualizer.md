@@ -1,7 +1,7 @@
 ---
 title: "Agentic Contextualizer"
 date: "2025-11-22"
-excerpt: "Bulding Better Context for AI Agents. Why we need to generate optimized context for AI agents, and the balance between cost, efficiency, and 'smart' analysis."
+excerpt: "Building Better Context for AI Agents. Why we need to generate optimized context for AI agents, and the balance between cost, efficiency, and 'smart' analysis."
 coverImage: "/images/projects/agentic-contextualizer.png"
 tags: ["ai", "agents", "context-engineering", "python"]
 githubUrl: "https://github.com/balorette/agentic-contextualizer"
@@ -16,9 +16,9 @@ AI came onto the scene at speed, presenting plenty of opportunities. Often, thou
 
 Traditional software is already an efficient way to solve complex problems. AI, specifically Agentic AI, has the potential to improve that efficiency, but it has just as much ability to destroy it. The best illustration of this is the classic **Sort** algorithm: it is easier, cheaper, and faster to call `list.sort()` than it is to ask an LLM to sort a list.
 
-This balance between traditional efficiency and AI capability is the foundation of the **Agentic Contextualizer**. Taking a couple of known patterns and flows, with the Context Engineering Article from Antropic; I am exploring the trade offs between leveraging code to do "things" and LLM calls to do things. Plus this helps me understand so much more of the landscape. 
+This balance between traditional efficiency and AI capability is the foundation of the **Agentic Contextualizer**. Taking a couple of known patterns and flows, with the Context Engineering Article from Anthropic; I am exploring the trade offs between leveraging code to do "things" and LLM calls to do things. Plus this helps me understand so much more of the landscape. 
 
-As we build, Once a problem is encountered and the AI Agentic framework is found to be a viable solution, considerations like cost and context become critical.
+As we build, once a problem is encountered and the AI Agentic framework is found to be a viable solution, considerations like cost and context become critical.
 
 ## Context is King
 

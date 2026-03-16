@@ -12,17 +12,17 @@ published: true
 
 Twenty years ago, I was configuring Cisco routers and managing Servers. That was my start. Today, I architect and build Cloud Native and Distributed applications at Enterprise Scale. And now I get to add AI into the mix. My path, though unconventional at times, makes sense though. 
 
-The core of my journey is found in the desire for knowledge and understanding, an intense curiosity and vivid imagination. I was lucky to have a family and mentors encouraged this though my life and career. Among the various antidotes and quotes from people that are way smarter than I am, there is a common message: fundamentals remain relevant. Thats what I try to build from. 
+The core of my journey is found in the desire for knowledge and understanding, an intense curiosity and vivid imagination. I was lucky to have a family and mentors encouraged this through my life and career. Among the various anecdotes and quotes from people that are way smarter than I am, there is a common message: fundamentals remain relevant. That's what I try to build from. 
 
 So how does this grow into this age of AI?
 
 ## Forge Ahead
 
-Years or troubleshooting, trying things out, breaking things, fixing things, etc. build out this mindset. You learn to think in systems, draw on experience, anticipate failure modes, and design for resilience. These skills continue to evolve. 
+Years of troubleshooting, trying things out, breaking things, fixing things, etc. build out this mindset. You learn to think in systems, draw on experience, anticipate failure modes, and design for resilience. These skills continue to evolve. 
 
 ### Systems Thinking
 
-Infrastructure work taught me systems thinking; understanding how components interact, anticipating failure modes, and designing for resilience. Building, Supporting, and Running Distributed Applications reinforced and expanded this. And today, These same principles apply to AI systems:
+Infrastructure work taught me systems thinking; understanding how components interact, anticipating failure modes, and designing for resilience. Building, Supporting, and Running Distributed Applications reinforced and expanded this. And today, these same principles apply to AI systems:
 
 **Reliability:**
 Just like redundant servers, AI workflows need fallback mechanisms. When an agent fails, what's the graceful degradation path? How do you ensure partial completion is captured and resumable?
@@ -51,7 +51,7 @@ The infrastructure mindset prepares you for this. You build retry logic, circuit
 
 ## The Joy of Continuous Learning
 
-I tried to pick a career where I didn't need to worry about continuing education... jokes on me.
+I tried to pick a career where I didn't need to worry about continuing education... joke's on me.
 
 What keeps me engaged after two decades is the constant evolution. Every release, every new technology, every experiment builds on what came before. Those who embrace learning have a massive advantage! 
 
@@ -83,7 +83,7 @@ The tools change, but the principles endure.
 
 Never stop learning. The foundation you build today supports tomorrow's innovations.
 
-Knowledge doesn't become obsolete. When new tech or tends emerg, it gives context for understanding. None of my experience is wasted now that AI dominates conversations, it informs how I think about AI systems architecture. It can even show me where my thinking doesn't work.
+Knowledge doesn't become obsolete. When new tech or trends emerge, it gives context for understanding. None of my experience is wasted now that AI dominates conversations, it informs how I think about AI systems architecture. It can even show me where my thinking doesn't work.
 
 Each layer builds on the last. Each skill compounds.
 

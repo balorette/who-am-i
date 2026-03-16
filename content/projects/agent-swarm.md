@@ -19,7 +19,7 @@ Think about your CRM. You bought it because you don't want to build a CRM; you w
 
 For this, we can use two distinct personas: the **Vendor** and the **Customer**.
 
-From the customer perspective, the primary focus is what does my business actually need? Lets say I am running an aftermarket auto parts storefront, my time is best spent building agents that optimize _my_ business: my sales strategy, my local inventory, my customer relationships. I shouldn't be wasting compute or engineering hours building agents to navigate the specific logic of my wholesale parts vendor, my shipping provider, or my CRM. 
+From the customer perspective, the primary focus is what does my business actually need? Let's say I am running an aftermarket auto parts storefront, my time is best spent building agents that optimize _my_ business: my sales strategy, my local inventory, my customer relationships. I shouldn't be wasting compute or engineering hours building agents to navigate the specific logic of my wholesale parts vendor, my shipping provider, or my CRM. 
 
 The need is **"Agent-to-Agent"** communication. The customer wants to point their "Generalist" agent at the Vendor's "Specialist" agent and let them figure it out. For the vendor, this is a massive differentiator. They can offer three doors for integration: **UI, API, or Agent.**
 
@@ -37,7 +37,7 @@ By offloading this complexity to the vendor, the customer’s agent stays "lean.
 
 ## **The Challenges of Distributed Logic**
 
-Managing context across these systems is a two-way street, but the Vendor side carries a relatively  heavier burden. There scale will often be much larger and simply passing the cost onto the customer will be scrutinized. This starts to highlight these concepts and challenges many are already dealing with:  
+Managing context across these systems is a two-way street, but the Vendor side carries a relatively  heavier burden. Their scale will often be much larger and simply passing the cost onto the customer will be scrutinized. This starts to highlight these concepts and challenges many are already dealing with:  
 
 **Progressive Disclosure in Context:** A vendor agent shouldn't dump its entire world into a response. They need to operate on the principle of **progressive disclosure**—giving the customer agent exactly what is needed for the next step, and no more. This prevents "context noise" and keeps token costs down. The customer agent, in turn, needs to be smart enough to ask, _"I have X, but to finish this task, I also need Y. Can you provide that?"_ (I’ve been exploring these patterns in my **Agentic Contextualizer** project).
 
