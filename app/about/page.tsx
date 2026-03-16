@@ -38,21 +38,14 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold mb-4">My Journey</h2>
           <div className="space-y-4 text-text-secondary">
             <p>
-              I started my career deep in traditional infrastructure — working with enterprise
-              systems, datacenters, Bare Metal Servers, Cisco networking, and Red Hat Linux. This
-              foundation gave me a solid understanding of how systems work at a fundamental level. 
-              I started building my own applications and sank my teeth into development.
+              From hardware to agents, I am a builder of systems. I grew up building computers and troubleshooting networks before 
+              "the cloud" had a name. My career has been a vertical climb up the stack: from physical networking and server rooms 
+              to Kubernetes and Internal Developer Platforms. I have built and architected enterprise-grade cloud platforms. 
             </p>
             <p>
-              As cloud technologies emerged, I evolved my skillset into cloud-native apps and architectures,
-              earning certifications in AWS and Azure. I&apos;ve embraced infrastructure as code,
-              containerization, and modern DevOps practices. I&apos;ve built everything from full stack all in one applications
-              to complex microservices architectures deployed on Kubernetes.
-            </p>
-            <p>
-              Today, I&apos;m exploring the cutting edge of AI and agentic systems, applying my
-              background to build and experiment with emerging technologies. I
-              believe the best way to learn is by building, documenting, and sharing.
+              Today, as a Tech Lead in AI, I use that foundational knowledge to demystify the 'magic' of the industry. 
+              I look at AI through the lens of architecture, governance, and root-cause reality. 
+              I write for the builders who care about how things actually work under the hood.
             </p>
           </div>
         </Card>
