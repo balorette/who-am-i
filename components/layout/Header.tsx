@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-background-primary/95 backdrop-blur-sm border-b border-border">
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
+      <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
@@ -81,27 +81,29 @@ export default function Header() {
         </div>
 
         {/* Mobile menu */}
-        {mobileMenuOpen && (
-          <div className="md:hidden py-4">
-            <div className="flex flex-col gap-y-4">
-              {navigation.map((item) => {
-                const isActive = pathname === item.href;
-                return (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className={`text-base font-medium ${
-                      isActive ? 'text-accent-primary' : 'text-text-secondary'
-                    }`}
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.name}
-                  </Link>
-                );
-              })}
-            </div>
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+            mobileMenuOpen ? 'max-h-64 opacity-100 py-4' : 'max-h-0 opacity-0'
+          }`}
+        >
+          <div className="flex flex-col gap-y-4">
+            {navigation.map((item) => {
+              const isActive = pathname === item.href;
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={`text-base font-medium ${
+                    isActive ? 'text-accent-primary' : 'text-text-secondary'
+                  }`}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

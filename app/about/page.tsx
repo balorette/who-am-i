@@ -60,7 +60,7 @@ export default function AboutPage() {
 
       {/* Skills & Technologies */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6">Technologies & Skills</h2>
+        <h2 className="text-2xl font-bold mb-6 section-heading">Technologies & Skills</h2>
         <Card>
           <div className="flex flex-wrap gap-2">
             {technologies.map((tech) => (
@@ -72,7 +72,7 @@ export default function AboutPage() {
 
       {/* Certifications */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6">Recommended Courses</h2>
+        <h2 className="text-2xl font-bold mb-6 section-heading">Recommended Courses</h2>
         <div className="space-y-4">
           {certifications.map((cert) => (
             <Card key={cert.name} hover={false}>

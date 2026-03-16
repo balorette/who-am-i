@@ -32,11 +32,9 @@ export default function ExperimentsPage() {
             <div key={experiment.slug}>
               <Card>
                 <div className="flex items-start justify-between mb-4">
-                  <Link href={`/experiments/${experiment.slug}`}>
-                    <h3 className="text-xl font-semibold text-text-primary hover:text-accent-primary transition-colors">
-                      {experiment.frontmatter.title}
-                    </h3>
-                  </Link>
+                  <h3 className="text-xl font-semibold text-text-primary group-hover:text-accent-primary transition-colors">
+                    {experiment.frontmatter.title}
+                  </h3>
                   <StatusBadge status={experiment.frontmatter.status} />
                 </div>
 
@@ -56,14 +54,14 @@ export default function ExperimentsPage() {
                       href={experiment.frontmatter.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-text-secondary hover:text-accent-primary transition-colors"
+                      className="relative z-10 flex items-center gap-2 text-sm text-text-secondary hover:text-accent-primary transition-colors"
                     >
                       <FaGithub /> GitHub
                     </a>
                   )}
                   <Link
                     href={`/experiments/${experiment.slug}`}
-                    className="flex items-center gap-2 text-sm text-accent-primary hover:underline ml-auto"
+                    className="stretched-link flex items-center gap-2 text-sm text-accent-primary hover:underline ml-auto"
                   >
                     Read more →
                   </Link>
@@ -77,7 +75,7 @@ export default function ExperimentsPage() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Experiments</h1>
         <p className="text-xl text-text-secondary max-w-3xl">

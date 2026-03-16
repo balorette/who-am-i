@@ -101,21 +101,6 @@ html {
   }
 }
 
-/* Card component base */
-.card {
-  background: var(--background-secondary);
-  border: 1px solid var(--border);
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  transition: all 0.3s ease;
-}
-
-.card:hover {
-  border-color: var(--accent-primary);
-  box-shadow: 0 10px 15px -3px rgb(78 201 176 / 0.1);
-  transform: scale(1.02);
-}
-
 /* Code block styling */
 .code-block {
   background: var(--background-tertiary);
@@ -129,6 +114,31 @@ html {
   content: '▋';
   color: var(--accent-primary);
   animation: var(--animate-cursor-blink);
+}
+
+/* Section heading accent bar */
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-heading::before {
+  content: '';
+  width: 3px;
+  height: 1.5em;
+  background: var(--accent-primary);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Stretched link — makes entire parent card clickable */
+.stretched-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  cursor: pointer;
 }
 
 /* Text gradient utility */
@@ -184,7 +194,7 @@ html {
 }
 
 .prose p {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   line-height: 1.75;

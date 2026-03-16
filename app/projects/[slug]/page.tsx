@@ -111,7 +111,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         {/* Content */}
         <div
-          className="prose prose-lg max-w-3xl"
+          className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </article>

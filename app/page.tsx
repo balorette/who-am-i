@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 space-y-16">
       {/* Hero Section */}
-      <section className="py-20 text-center animate-fade-in">
+      <section className="py-12 md:py-16 text-center animate-fade-in">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
           <span className="text-gradient">Bryan Lorette</span>
         </h1>
@@ -52,11 +52,13 @@ export default function Home() {
         </div>
       </section>
 
+      <hr className="border-border" />
+
       {/* Featured Projects */}
       {projects.length > 0 && (
-        <section className="py-12">
+        <section>
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-bold">Featured Projects</h2>
+            <h2 className="text-3xl font-bold section-heading">Featured Projects</h2>
             <Link
               href="/projects"
               className="text-accent-primary hover:underline flex items-center gap-2"
@@ -67,7 +69,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <Link key={project.slug} href={`/projects/${project.slug}`}>
-                <Card>
+                <Card
+                  coverImage={project.frontmatter.coverImage}
+                  coverAlt={project.frontmatter.title}
+                >
                   <h3 className="text-xl font-semibold mb-2 text-text-primary">
                     {project.frontmatter.title}
                   </h3>
@@ -87,11 +92,13 @@ export default function Home() {
         </section>
       )}
 
+      <hr className="border-border" />
+
       {/* Active Experiments */}
       {experiments.length > 0 && (
-        <section className="py-12">
+        <section>
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-bold">Active Experiments</h2>
+            <h2 className="text-3xl font-bold section-heading">Active Experiments</h2>
             <Link
               href="/experiments"
               className="text-accent-primary hover:underline flex items-center gap-2"
@@ -124,8 +131,10 @@ export default function Home() {
         </section>
       )}
 
+      <hr className="border-border" />
+
       {/* Quick Links */}
-      <section className="py-12">
+      <section>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Link href="/blog">
             <Card>

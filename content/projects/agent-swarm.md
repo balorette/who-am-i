@@ -2,6 +2,7 @@
 title: "Enterprising Agents"
 date: "2026-03-15"
 excerpt: "We’re moving past the 'one model' myth. Scaling enterprise AI requires a shift to specialized agents, mTLS-backed identity, and the end of the manual integration era."
+coverImage: "/images/projects/enterprising-agents.png"
 tags: ["ai", "agents", "context-engineering", "a2a"]
 githubUrl: "https://github.com/balorette/a2a-experience"
 status: "in-progress"
