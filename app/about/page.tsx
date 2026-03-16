@@ -13,12 +13,12 @@ export const metadata: Metadata = genMetadata({
 export default function AboutPage() {
   const certifications = [
     { name: 'AWS AI/ML', year: 'Udemy' },
-    { name: 'Agentic Course', year: 'Udemy' },
+    { name: 'Agentic Courses', year: 'Udemy' },
     { name: 'GoLang', year: 'Udemy' }
   ];
 
   const technologies = [
-    'AWS', 'Azure', 'Next.js', 'TypeScript', 'React',
+    'AWS', 'Azure', 'AI', 'Next.js', 'TypeScript', 'React',
     'Node.js', 'Python', 'Go', 'Linux', 'Docker', 'Kubernetes', 'Crossplane',
     'Terraform', 'CloudFormation', 'CI/CD', 'AI/ML', 'Security', 'SDLC',
   ];
