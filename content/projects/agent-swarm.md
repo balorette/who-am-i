@@ -40,7 +40,7 @@ By offloading this complexity to the vendor, the customer’s agent stays "lean.
 
 Managing context across these systems is a two-way street, but the Vendor side carries a relatively  heavier burden. Their scale will often be much larger and simply passing the cost onto the customer will be scrutinized. This starts to highlight these concepts and challenges many are already dealing with:  
 
-**Progressive Disclosure in Context:** A vendor agent shouldn't dump its entire world into a response. They need to operate on the principle of **progressive disclosure**—giving the customer agent exactly what is needed for the next step, and no more. This prevents "context noise" and keeps token costs down. The customer agent, in turn, needs to be smart enough to ask, _"I have X, but to finish this task, I also need Y. Can you provide that?"_ (I’ve been exploring these patterns in my **Agentic Contextualizer** project).
+**Progressive Disclosure in Context:** A vendor agent shouldn't dump its entire world into a response. They need to operate on the principle of **progressive disclosure**, giving the customer agent exactly what is needed for the next step, and no more. This prevents "context noise" and keeps token costs down. The customer agent, in turn, needs to be smart enough to ask, _"I have X, but to finish this task, I also need Y. Can you provide that?"_ (I’ve been exploring these patterns in my **Agentic Contextualizer** project).
 
 **Human-in-the-Loop (HITL) & Escalation:** What happens when the agents get stuck? We need a standardized way for a vendor agent to surface an escalation request that the customer agent can interpret. This might mean the customer agent prompts a human in their own UI to resolve a vendor-side ambiguity.
 
