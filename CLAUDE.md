@@ -1,7 +1,7 @@
 # Bryan Lorette - Personal Static Site
 
 ## Project Overview
-Build a modern, minimal dark-themed personal website that showcases Bryan's evolution from networking and infrastructure to devlopment, cloud-native and AI technologies. The site demonstrates continuous growth and learning through projects, experiments, and insights—balancing professional expertise with authentic personality. Built as a static site using Next.js with App Router for easy maintenance and deployed to AWS S3/CloudFront.
+Build a modern, minimal dark-themed personal website that showcases Bryan's evolution from networking and infrastructure to development, cloud-native and AI technologies. The site demonstrates continuous growth and learning through projects, experiments, and insights—balancing professional expertise with authentic personality. Built as a static site using Next.js with App Router for easy maintenance and deployed to AWS S3/CloudFront.
 
 ## Brand Identity
 **Narrative:** From hardware to agents, I am a builder of systems. I grew up building computers and troubleshooting networks before "the cloud" had a name. My career has been a vertical climb up the stack: from physical networking and server rooms to Kubernetes and Internal Developer Platforms. I have built and architected enterprise-grade cloud platforms. Today, as a Tech Lead in AI, I use that foundational knowledge to demystify the 'magic' of the industry. I look at AI through the lens of architecture, governance, and root-cause reality. I write for the builders who care about how things actually work under the hood.
