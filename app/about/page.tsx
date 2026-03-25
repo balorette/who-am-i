@@ -39,11 +39,11 @@ export default function AboutPage() {
           <div className="space-y-4 text-text-secondary">
             <p>
               From hardware to agents, I am a builder of systems. I grew up building computers and troubleshooting networks before 
-              "the cloud" had a name. My career has been a vertical climb up the stack: from physical networking and server rooms 
+              &ldquo;the cloud&rdquo; had a name. My career has been a vertical climb up the stack: from physical networking and server rooms
               to Kubernetes and Internal Developer Platforms. I have built and architected enterprise-grade cloud platforms. 
             </p>
             <p>
-              Today, as a Tech Lead in AI, I use that foundational knowledge to demystify the 'magic' of the industry. 
+              Today, as a Tech Lead in AI, I use that foundational knowledge to demystify the &apos;magic&apos; of the industry.
               I look at AI through the lens of architecture, governance, and root-cause reality. 
               I write for the builders who care about how things actually work under the hood.
             </p>

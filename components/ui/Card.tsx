@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import Image from 'next/image';
 
 interface CardProps {
   children: ReactNode;
@@ -29,11 +30,12 @@ export default function Card({
         <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity border-2 border-accent-primary/20 animate-pulse-border pointer-events-none" />
       )}
       {coverImage && (
-        <div className="w-full h-40 overflow-hidden">
-          <img
+        <div className="relative w-full h-40 overflow-hidden">
+          <Image
             src={coverImage}
             alt={coverAlt}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
       )}
