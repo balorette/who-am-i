@@ -18,7 +18,7 @@ export default function ProjectsPage() {
   const projects = getContentItems<ProjectFrontmatter>('projects');
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Projects</h1>
         <p className="text-xl text-text-secondary max-w-3xl">
@@ -36,13 +36,14 @@ export default function ProjectsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <div key={project.slug}>
-              <Card>
+              <Card
+                coverImage={project.frontmatter.coverImage}
+                coverAlt={project.frontmatter.title}
+              >
                 <div className="flex items-start justify-between mb-4">
-                  <Link href={`/projects/${project.slug}`}>
-                    <h2 className="text-2xl font-semibold text-text-primary hover:text-accent-primary transition-colors">
-                      {project.frontmatter.title}
-                    </h2>
-                  </Link>
+                  <h2 className="text-2xl font-semibold text-text-primary group-hover:text-accent-primary transition-colors">
+                    {project.frontmatter.title}
+                  </h2>
                   <StatusBadge status={project.frontmatter.status} />
                 </div>
 
@@ -62,7 +63,7 @@ export default function ProjectsPage() {
                       href={project.frontmatter.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-text-secondary hover:text-accent-primary transition-colors"
+                      className="relative z-10 flex items-center gap-2 text-sm text-text-secondary hover:text-accent-primary transition-colors"
                     >
                       <FaGithub /> GitHub
                     </a>
@@ -72,14 +73,14 @@ export default function ProjectsPage() {
                       href={project.frontmatter.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm text-text-secondary hover:text-accent-primary transition-colors"
+                      className="relative z-10 flex items-center gap-2 text-sm text-text-secondary hover:text-accent-primary transition-colors"
                     >
                       <FaExternalLinkAlt /> Live Demo
                     </a>
                   )}
                   <Link
                     href={`/projects/${project.slug}`}
-                    className="flex items-center gap-2 text-sm text-accent-primary hover:underline ml-auto"
+                    className="stretched-link flex items-center gap-2 text-sm text-accent-primary hover:underline ml-auto"
                   >
                     Read more →
                   </Link>

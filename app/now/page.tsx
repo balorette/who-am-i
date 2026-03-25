@@ -37,29 +37,29 @@ export default function NowPage() {
 
       <div className="space-y-8">
         <Card>
-          <h2 className="text-2xl font-bold mb-4 text-accent-primary"><i className="fa-duotone fa-solid fa-trophy"></i> Current Focus</h2>
-          <ul className="space-y-2 text-text-secondary">
-            <li>• Exploring agentic AI systems with OpenAI, Anthropic, Custom Agents and more</li>
-            <li>• Building personal site with Next.js and modern static site techniques</li>
-            <li>• All things Cloud, Cloud Native, and Development</li>
+          <h2 className="text-2xl font-bold mb-4 text-accent-primary">Current Focus</h2>
+          <ul className="space-y-3 text-text-secondary list-none pl-0">
+            <li className="flex items-start gap-3"><span className="text-accent-primary mt-1.5 text-xs">&#9654;</span> Exploring agentic AI systems with OpenAI, Anthropic, Custom Agents and more</li>
+            <li className="flex items-start gap-3"><span className="text-accent-primary mt-1.5 text-xs">&#9654;</span> Building personal site with Next.js and modern static site techniques</li>
+            <li className="flex items-start gap-3"><span className="text-accent-primary mt-1.5 text-xs">&#9654;</span> All things Cloud, Cloud Native, and Development</li>
           </ul>
         </Card>
 
         <Card>
           <h2 className="text-2xl font-bold mb-4 text-accent-secondary">Learning</h2>
-          <ul className="space-y-2 text-text-secondary">
-            <li>• AI/ML in multiple Languages and frameworks</li>
-            <li>• AI agent orchestration and workflow design</li>
-            <li>• Infrastructure as Code at Scale</li>
+          <ul className="space-y-3 text-text-secondary list-none pl-0">
+            <li className="flex items-start gap-3"><span className="text-accent-secondary mt-1.5 text-xs">&#9654;</span> AI/ML in multiple Languages and frameworks</li>
+            <li className="flex items-start gap-3"><span className="text-accent-secondary mt-1.5 text-xs">&#9654;</span> AI agent orchestration and workflow design</li>
+            <li className="flex items-start gap-3"><span className="text-accent-secondary mt-1.5 text-xs">&#9654;</span> Infrastructure as Code at Scale</li>
           </ul>
         </Card>
 
         <Card>
           <h2 className="text-2xl font-bold mb-4 text-accent-success">Building</h2>
-          <ul className="space-y-2 text-text-secondary">
-            <li>• Personal portfolio site (this site!)</li>
-            <li>• Experimental AI-powered automation tools</li>
-            <li>• Documentation and learning resources</li>
+          <ul className="space-y-3 text-text-secondary list-none pl-0">
+            <li className="flex items-start gap-3"><span className="text-accent-success mt-1.5 text-xs">&#9654;</span> Personal portfolio site (this site!)</li>
+            <li className="flex items-start gap-3"><span className="text-accent-success mt-1.5 text-xs">&#9654;</span> Experimental AI-powered automation tools</li>
+            <li className="flex items-start gap-3"><span className="text-accent-success mt-1.5 text-xs">&#9654;</span> Documentation and learning resources</li>
           </ul>
         </Card>
       </div>

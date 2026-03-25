@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-border mt-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
@@ -14,7 +14,7 @@ export default function Footer() {
               Bryan Lorette
             </h3>
             <p className="text-sm text-text-secondary">
-              Cloud-native specialist evolving into emerging and AI technologies.
+              From hardware to agents — builder of systems, architect of platforms, explorer of AI.
             </p>
           </div>
 
